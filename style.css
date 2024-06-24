@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+*{
+    box-sizing: border-box;
+    font-family: figtree;
+}
+.parent{
+    width: 384px;
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.child-1 img{
+    border-radius:20px;
+    padding: 10px;
+    
+}
+.child-2 h2{
+    font-size: 24px;
+    background-color: hsl(47, 88%, 63%);
+width: 150px;
+text-align: center;
+font-weight: bold;
+}
+.child-2 h1{
+    width: 100%;
+    font-size: x-large;
+}
+.child-2 p{
+    font-weight: 200;
+    font-size: 18px;
+    color: hsl(0, 0%, 50%);
+}
+.child-3{
+    display: flex;
+  font-weight: bold;
+  padding:0 20px;
+  
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:300px 0;
+
+  
+}
+.child-3 img{
+margin-right: 20px;
+}
